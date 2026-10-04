@@ -20,10 +20,11 @@ export default function ChatPage() {
     setIsTyping(true);
 
     try {
+      const context = localStorage.getItem("studybuddy_context") || "";
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userMessage }),
+        body: JSON.stringify({ message: userMessage, context: context }),
       });
       const data = await res.json();
       setMessages((prev) => [...prev, { role: "ai", content: data.reply || "Something went wrong." }]);

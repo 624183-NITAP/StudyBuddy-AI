@@ -24,11 +24,8 @@ export async function POST(req: Request) {
       text = buffer.toString("utf-8");
     }
 
-    // Save context to a local file for the demo
-    const contextPath = path.join(os.tmpdir(), "context.txt");
-    await fs.writeFile(contextPath, text);
-
-    return NextResponse.json({ success: true, message: "File processed and indexed" });
+    // Return the text instead of saving it to the server (Stateless for Vercel)
+    return NextResponse.json({ success: true, text: text, message: "File processed and indexed" });
   } catch (error) {
     console.error("Upload error:", error);
     return NextResponse.json({ error: "Failed to process file" }, { status: 500 });

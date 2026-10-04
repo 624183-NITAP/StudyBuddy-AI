@@ -34,6 +34,10 @@ export default function Home() {
         });
         
         if (res.ok) {
+          const data = await res.json();
+          // Save the extracted text to localStorage so it persists across Vercel stateless requests
+          localStorage.setItem("studybuddy_context", data.text);
+          
           // Update recent files list
           const ext = file.name.split(".").pop()?.toUpperCase() || "FILE";
           const newFiles = [{ name: file.name, type: ext, date: "Just now" }, ...recentFiles];
@@ -41,7 +45,8 @@ export default function Home() {
           localStorage.setItem("studybuddy_files", JSON.stringify(newFiles));
           alert("Notes indexed successfully! You can now chat with them.");
         } else {
-          alert("Failed to process document.");
+          const errorData = await res.json().catch(() => ({}));
+          alert(`Failed to process document: ${errorData.error || "Unknown error"}`);
         }
       } catch (error) {
         console.error(error);

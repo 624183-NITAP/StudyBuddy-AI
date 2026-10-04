@@ -5,16 +5,12 @@ import os from "os";
 
 export async function POST(req: Request) {
   try {
-    const { type } = await req.json();
-
-    const contextPath = path.join(os.tmpdir(), "context.txt");
-    let context = "";
-    try {
-      context = await fs.readFile(contextPath, "utf-8");
-      context = context.substring(0, 4000);
-    } catch (e) {
-      console.log("No context file found yet.");
-    }
+    const body = await req.json();
+    const type = body.type;
+    let context = body.context || "";
+    
+    // Ensure we don't exceed model limits
+    context = context.substring(0, 4000);
 
     const prompt = `You are an expert tutor creating an exam based on the provided notes. Generate 4 exam questions of type: ${type}.
 Format your output strictly as a JSON array where each object has "mark" (integer), "q" (question string), and "a" (answer string).

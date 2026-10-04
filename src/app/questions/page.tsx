@@ -23,10 +23,11 @@ export default function QuestionsPage() {
     setIsGenerating(true);
     setQuestions(null);
     try {
+      const context = localStorage.getItem("studybuddy_context") || "";
       const res = await fetch("/api/questions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: selectedType }),
+        body: JSON.stringify({ type: selectedType, context: context }),
       });
       if (res.ok && res.body) {
         const reader = res.body.getReader();

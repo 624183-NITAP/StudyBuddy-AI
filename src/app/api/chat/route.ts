@@ -5,18 +5,12 @@ import os from "os";
 
 export async function POST(req: Request) {
   try {
-    const { message } = await req.json();
-
-    // Read context from local file
-    const contextPath = path.join(os.tmpdir(), "context.txt");
-    let context = "";
-    try {
-      context = await fs.readFile(contextPath, "utf-8");
-      // Limit context to roughly 4000 chars to avoid overwhelming the model on a basic setup
-      context = context.substring(0, 4000);
-    } catch (e) {
-      console.log("No context file found yet.");
-    }
+    const body = await req.json();
+    const message = body.message;
+    let context = body.context || "";
+    
+    // Ensure we don't exceed model limits
+    context = context.substring(0, 4000);
 
     const prompt = `You are StudyBuddy AI, an intelligent and friendly tutor helping a student study for exams.
 You ALREADY have access to the user's uploaded document. The contents of their document are provided to you below in the "Context from Notes" section.
