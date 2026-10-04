@@ -21,6 +21,13 @@ Open innovation was absolutely critical for this project. As a student, my frien
 
 By leveraging **Llama 3.2** via **Ollama**, StudyBuddy AI runs entirely on local hardware. It makes personalized, high-quality AI tutoring completely free, fast, and 100% private. Open-weight models empower developers to build these hyper-personalized, zero-cost tools that directly improve people's everyday lives—something that simply wouldn't be sustainable on a tight student budget using closed APIs.
 
+## My Agent Session
+{% agent_session 28b26a99-6318-46f9-9ff9-5c1efc7b052a %}
+
+## Prize Categories
+* **Local AI Hero**
+* **Open Source Innovator**
+
 ## Getting Started
 
 First, make sure you have [Ollama](https://ollama.com/) installed and running locally with the `llama3.2` model.
