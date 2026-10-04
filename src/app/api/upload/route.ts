@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
 import fs from "fs/promises";
-import path from "path";
+import path from "path";import os from "os";
 
 export async function POST(req: Request) {
   try {
@@ -25,7 +25,7 @@ export async function POST(req: Request) {
     }
 
     // Save context to a local file for the demo
-    const contextPath = path.join(process.cwd(), "context.txt");
+    const contextPath = path.join(os.tmpdir(), "context.txt");
     await fs.writeFile(contextPath, text);
 
     return NextResponse.json({ success: true, message: "File processed and indexed" });

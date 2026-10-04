@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
 import fs from "fs/promises";
 import path from "path";
+import os from "os";
 
 export async function POST(req: Request) {
   try {
     const { type } = await req.json();
 
-    const contextPath = path.join(process.cwd(), "context.txt");
+    const contextPath = path.join(os.tmpdir(), "context.txt");
     let context = "";
     try {
       context = await fs.readFile(contextPath, "utf-8");
