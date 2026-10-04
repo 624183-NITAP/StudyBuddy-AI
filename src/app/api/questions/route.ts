@@ -24,23 +24,41 @@ CRITICAL RULES:
 Context:
 ${context || "No context provided. Generate some generic questions about computer science."}`;
 
-    const response = await fetch("http://127.0.0.1:11434/api/generate", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        model: "llama3.2",
-        prompt: prompt,
-        stream: true,
-      }),
-    });
+    let response;
+    const groqKey = process.env.GROQ_API_KEY;
 
-    if (!response.ok) {
-      throw new Error(`Ollama API error`);
+    if (groqKey) {
+      response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${groqKey}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          model: "llama-3.1-8b-instant",
+          messages: [{ role: "user", content: prompt }],
+          stream: true,
+        }),
+      });
+    } else {
+      response = await fetch("http://127.0.0.1:11434/api/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          model: "llama3.2",
+          prompt: prompt,
+          stream: true,
+        }),
+      });
     }
 
-    // Stream the raw Ollama response back to the client
+    if (!response.ok) {
+      throw new Error(`API error`);
+    }
+
+    // Stream the raw response back to the client
     return new Response(response.body, {
-      headers: { "Content-Type": "application/x-ndjson" }
+      headers: { "Content-Type": "text/event-stream" }
     });
 
   } catch (error) {
