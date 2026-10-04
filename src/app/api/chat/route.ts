@@ -27,29 +27,6 @@ Student Question:
 ${message}
 `;
 
-    const groqKey = process.env.GROQ_API_KEY;
-    if (groqKey) {
-      const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${groqKey}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          model: "llama-3.1-8b-instant",
-          messages: [{ role: "user", content: prompt }],
-          stream: false,
-        }),
-      });
-      
-      if (!response.ok) {
-        throw new Error(`Groq API error: ${response.statusText}`);
-      }
-      
-      const data = await response.json();
-      return NextResponse.json({ reply: data.choices[0].message.content });
-    }
-
     const response = await fetch("http://127.0.0.1:11434/api/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

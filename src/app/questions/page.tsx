@@ -44,16 +44,9 @@ export default function QuestionsPage() {
           const lines = chunk.split('\n').filter(line => line.trim() !== '');
           for (const line of lines) {
             try {
-              let cleanLine = line;
-              if (line.startsWith('data: ')) {
-                cleanLine = line.substring(6);
-                if (cleanLine.trim() === '[DONE]') continue;
-              }
-              const parsed = JSON.parse(cleanLine);
+              const parsed = JSON.parse(line);
               if (parsed.response) {
                 fullText += parsed.response;
-              } else if (parsed.choices && parsed.choices[0]?.delta?.content) {
-                fullText += parsed.choices[0].delta.content;
               }
             } catch(e) {
               // ignore invalid JSON chunks
