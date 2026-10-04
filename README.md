@@ -1,8 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StudyBuddy AI
+
+*This project was built for the [Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01)*
+
+## What I Built
+I built **StudyBuddy AI**, a local, privacy-first AI study companion designed to help my friend prepare for their upcoming university exams. 
+
+My friend often struggles to find good practice questions or consolidate their lecture notes into actionable study material. They spend hours just trying to come up with potential exam questions instead of actually studying the concepts. StudyBuddy AI solves this by allowing them to upload their course notes and automatically generating targeted exam questions (short 2-mark questions, detailed 5-mark questions, and even Viva/Interview style questions). It also includes an AI chat feature for instant tutoring on difficult topics, and a flashcard generator to help memorize key definitions.
+
+## How I Built It
+The project is a modern web application built with:
+* **Frontend:** Next.js (React) and Tailwind CSS for a sleek, responsive, and dynamic UI.
+* **Backend:** Next.js API Routes handling server-side logic and streaming.
+* **AI Engine:** **Ollama** running the **Llama 3.2** open-weight model completely locally.
+
+Instead of relying on closed APIs, the application connects directly to a local Ollama instance (`http://127.0.0.1:11434/api/generate`). 
+A key technical challenge I solved was the perceived latency when generating detailed 5-mark questions. To fix this, I implemented an NDJSON streaming parser that reads chunks from Ollama in real-time, extracts completed JSON objects using regex, and streams the UI components back to the user progressively so they don't have to wait for the entire exam to be generated before seeing the first question.
+
+## Why Does Open Innovation Matter?
+Open innovation was absolutely critical for this project. As a student, my friend cannot afford expensive API subscriptions for AI models. Furthermore, studying often involves uploading lecture slides or personal notes that shouldn't necessarily be shipped off to a third-party server. 
+
+By leveraging **Llama 3.2** via **Ollama**, StudyBuddy AI runs entirely on local hardware. It makes personalized, high-quality AI tutoring completely free, fast, and 100% private. Open-weight models empower developers to build these hyper-personalized, zero-cost tools that directly improve people's everyday lives—something that simply wouldn't be sustainable on a tight student budget using closed APIs.
 
 ## Getting Started
 
-First, run the development server:
+First, make sure you have [Ollama](https://ollama.com/) installed and running locally with the `llama3.2` model.
+```bash
+ollama run llama3.2
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -15,22 +41,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
