@@ -1,0 +1,277 @@
+AIR
+WATER	SOIL
+HEALTH
+CLIMATE COST
+I M P A C T S O F
+Municipal Solid Waste
+Environmental, public-health, climate, social and economic
+consequences
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+I M P A C T P A T H W A Y
+How poorly managed waste creates harm
+Waste impacts are produced through connected environmental and human-exposure pathways.
+Mixed generation
+hazardous items enter MSW
+Weak collection
+waste accumulates
+Dumping / burning
+uncontrolled release
+Polluted media
+air • water • soil
+Exposure
+people and ecosystems
+Consequences
+disease • damage • cost
+Key principle Impacts can be prevented most effectively before waste becomes mixed, dispersed, burned or
+buried without control.
+2
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+A I R P O L L U T I O N
+Open burning, dust, odour and landfill gas
+Air impacts occur at collection points, dumpsites, transfer stations, processing plants and transport corridors.
+OPEN BURNING
+particulate matter • carbon monoxide • acid gases • toxic organic
+pollutants
+ODOUR
+hydrogen sulphide • ammonia • volatile organic compounds
+DUST & BIOAEROSOLS
+fine particles • fungal spores • microbial fragments
+LANDFILL GAS
+methane • carbon dioxide • trace gases • fire risk
+Control priorities Ban and prevent open burning
+Cover and contain waste during transport
+Capture or flare landfill gas
+Use ventilation and emission controls at facilities
+3
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+C L I M A T E I M P A C T S
+Methane, combustion and lifecycle emissions
+Climate impact is shaped by the organic fraction, disposal conditions, transport and avoided material production.
+MAJOR EMISSION PATHWAYS
+Anaerobic decay of food and garden waste produces methane.
+Open burning releases carbon dioxide, black carbon and other
+pollutants.
+Collection vehicles and processing facilities consume fuel and
+electricity.
+Discarding recyclables increases demand for virgin-material
+production.
+CLIMATE MITIGATION LEVERS
+Prevent food waste
+Compost or digest clean organics
+Capture landfill gas
+Recycle high-value materials
+Optimize routes and vehicles
+4
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+W A T E R P O L L U T I O N
+Leachate, runoff and contaminated drainage
+Rainwater contacting waste can transport dissolved and suspended contaminants into surface water and groundwater.
+Rainfall
+water enters exposed waste
+Leaching
+organic and chemical contaminants
+dissolve
+Migration
+runoff or infiltration
+Receptor
+stream • well • wetland
+Impact
+unsafe water
+TYPICAL LEACHATE CONSTITUENTS
+high organic load and ammonia
+chlorides and dissolved salts
+pathogens and suspended solids
+heavy metals and chemical residues
+ENGINEERING CONTROLS
+impervious working surfaces
+landfill liners and drainage layers
+leachate collection and treatment
+stormwater diversion and monitoring
+5
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+F L O O D I N G A N D V E C T O R S
+Blocked drains turn a waste problem into an urban-resilience problem
+Plastic packaging and litter obstruct drainage; discarded containers retain standing water.
+BLOCKED DRAINS
+reduced hydraulic capacity
+INTENSE RAIN
+rapid surface runoff
+LOCAL FLOODING
+waste and sewage spread
+STANDING WATER
+mosquito breeding habitat
+DISEASE RISK
+vector-borne and waterborne
+exposure
+Preventive actions Reliable collection • litter control • drain screens and maintenance • removal of water-holding
+waste • rapid cleanup after floods
+6
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+S O I L A N D L A N D
+Contamination, instability and loss of productive land
+Uncontrolled disposal alters soil quality, occupies land and creates long-term liabilities.
+Chemical contamination
+batteries • oils • pesticides • paint • ash
+Plastic fragmentation
+microplastics and additives persist in soil
+Land degradation
+loss of vegetation, amenity and development value
+Slope instability
+waste slides after rain, gas or poor placement
+Windblown litter
+plastic and paper disperse beyond the site
+Long-term liability
+monitoring and remediation continue after closure
+Separate hazardous household waste and use engineered liners, cover systems, stable slopes and site restoration.
+7
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+P U B L I C H E A L T H
+Exposure pathways and health outcomes
+Health risks vary with waste type, duration of exposure, protective measures and vulnerability.
+I INHALATION smoke • dust • bioaerosols respiratory irritation
+I INGESTION contaminated water or food gastrointestinal illness
+V VECTOR CONTACT flies • mosquitoes • rodents disease transmission
+S SKIN CONTACT leachate • chemicals • sharp waste dermatitis and injury
+A ACCIDENTS vehicles • machinery • unstable slopes trauma and fatalities
+Highest risk: workers, children and communities near
+uncontrolled sites
+8
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+O C C U P A T I O N A L S A F E T Y
+Risks faced by collection workers and informal recyclers
+Mixed waste hides sharp, infectious, chemical and combustible hazards.
+! Cuts and punctures glass • metal • needles
+! Traffic injuries reversing vehicles • roadside work
+! Machinery hazards conveyors • compactors • shredders
+! Biological exposure food waste • sanitary waste • bioaerosols
+! Fire and explosion batteries • gas • hot ash
+! Ergonomic strain manual lifting • repetitive handling
+Minimum safeguards source segregation • PPE • vaccination and hygiene • machine guards • traffic plans • training • formal integration and social protection
+9
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+E C O S Y S T E M S
+From litter to food-chain contamination
+Land-based waste can move through wind, rivers, drains and runoff into terrestrial and aquatic habitats.
+Litter release
+plastic, glass, chemicals
+Transport
+wind, runoff, rivers
+Exposure
+ingestion, entanglement
+Habitat change
+smothering and contamination
+Food-chain transfer
+persistent pollutants and particles
+AQUATIC IMPACTS
+blocked waterways and reduced flow
+ingestion and entanglement
+microplastic formation
+contaminant transport
+TERRESTRIAL IMPACTS
+soil contamination and altered habitat
+wildlife access to unsafe food
+windblown litter across landscapes
+reduced ecosystem services
+10
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+F I R E A N D P H Y S I C A L H A Z A R D S
+Dumpsite fires, gas migration and waste-slope failure
+Poor control can turn disposal sites into persistent emergency zones.
+FIRE SOURCES hot ash • deliberate burning • lithium batteries •
+spontaneous heating
+FIRE EFFECTS toxic smoke • equipment damage • subsurface burning
+• service disruption
+GAS HAZARDS methane migration • confined-space accumulation •
+explosion risk
+SLOPE FAILURE over-steep placement • rainfall • leachate pressure •
+uncontrolled excavation
+Emergency readiness: fire breaks • water and soil cover • gas monitoring • access control • stable working faces • incident plans
+11
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+S O C I A L I M P A C T S
+Amenity, environmental justice and livelihoods
+Waste burdens are often concentrated among communities with the least capacity to avoid exposure.
+Daily amenity
+odour • smoke • litter • noise • traffic
+Property and place
+reduced attractiveness and land value
+Community relations
+conflict over siting and service inequality
+Livelihoods
+informal recovery provides income but may be unsafe
+Environmental justice
+unequal exposure to hazards and weak services
+Public trust
+poor performance reduces participation and fee
+compliance
+Inclusive response consult communities early • provide grievance mechanisms • formalize safe recovery work • ensure equitable service coverage
+12
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+E C O N O M I C I M P A C T S
+Visible expenditure and hidden costs
+Poor waste management transfers costs to health systems, households, utilities, businesses and future generations.
+DIRECT MUNICIPAL COSTS collection • drain clearance • firefighting • cleanup •
+remediation
+HEALTH COSTS treatment • lost workdays • reduced productivity
+ASSET DAMAGE flooded roads • contaminated wells • damaged
+equipment
+RESOURCE LOSS discarded recyclables • nutrients • recoverable energy
+MARKET IMPACTS property value • tourism • local business
+attractiveness
+LONG-TERM LIABILITY landfill monitoring • polluted land and water
+restoration
+UNEP: hidden costs from pollution, health and climate substantially increase the global burden of inadequate waste management.
+13
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+I M P A C T M A T R I X
+Cause, pathway, receptor and control
+Use the matrix to structure site assessments and municipal risk registers.
+Source Pathway Receptor Priority control
+Open burning air workers + residents prevent burning; collect regularly
+Unlined dumping soil / groundwater wells + ecosystems liner; leachate collection
+Littered drains stormwater neighbourhoods collection; drain maintenance
+Mixed hazardous waste direct contact workers four-stream segregation
+Organic waste in dump landfill gas climate + nearby buildings divert organics; capture gas
+Steep waste slopes physical failure workers + settlements stable cells; drainage; monitoring
+14
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+P O S I T I V E I M P A C T S O F P R O P E R
+M A N A G E M E N T
+Turning a liability into materials, nutrients, energy and safer work
+Integrated management reduces exposure while recovering value.
+1 Prevent & reduce
+less material enters the system
+2 Segregate
+cleaner and safer streams
+3 Recycle
+lower demand for virgin resources
+4 Treat organics
+compost, biogas and less methane
+5 Control residuals
+emissions and leachate managed
+6 Include workers
+safer, more stable livelihoods
+Best outcome: reduce waste generation, maximize safe recovery, and reserve engineered disposal for inert materials and process
+rejects.
+15
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+M I T I G A T I O N H I E R A R C H Y
+Priority actions for municipalities and institutions
+Controls should prevent impacts at source before relying on treatment or cleanup.
+1 PREVENT procurement • food-waste reduction • reuse
+2 SEGREGATE wet • dry • sanitary • special-care
+3 COLLECT reliable service • covered transport • route control
+4 RECOVER MRF • compost • anaerobic digestion
+5 CONTROL emissions • leachate • gas • fire • worker safety
+6 DISPOSE sanitary landfill for rejects and inert waste
+16
+I M P A C T S O F M U N I C I P A L S O L I D W A S T E
+K E Y T A K E A W A Y S
+Municipal waste impacts are preventable
+Use these statements as a revision checklist.
+1 Improper MSW management contaminates air, water and soil. 2 Organic waste in uncontrolled disposal generates methane and odour.
+3 Litter blocks drains, worsens flooding and creates vector habitat. 4 Workers face sharp, biological, traffic, machinery and fire hazards.
+5 Pollution damages ecosystems and may enter food chains. 6 Social and economic costs extend far beyond municipal collection budgets.
+7 Source segregation is the foundation of safe recovery and treatment. 8 Engineered controls are necessary even after prevention and recycling.
+Clean cities require both good infrastructure and disciplined everyday operations.
+17
